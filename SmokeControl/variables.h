@@ -9,6 +9,10 @@ struct __eeprom_data { //  structure that maps all of the data we are storing in
 bool startup = true; //indicate if we are still in startup mode for 
 
 //SMOKE START
+ESC SmokeSteering (SMOKE_STEERING_PIN, SMOKE_ST_ESC_MIN, SMOKE_ST_ESC_MAX, SMOKE_ST_ESC_ARM);
+ESC SmokeThrottle (SMOKE_THROTTLE_PIN, SMOKE_TR_ESC_MIN, SMOKE_TR_ESC_MAX, SMOKE_TR_ESC_ARM);
+ESC SmokeChannel3 (SMOKE_CHANNEL3_PIN, SMOKE_CH3_ESC_MIN, SMOKE_CH3_ESC_MAX, SMOKE_CH3_ESC_ARM);
+
 
 
 //SMOKE END

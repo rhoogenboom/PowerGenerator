@@ -8,7 +8,19 @@
 #define MIN(x,y) ( x > y ? y : x )
 #define MAX(x,y) ( x > y ? x : y )
 
+//DEBUG
+#define DEBUG_PRINT_INTERVAL (2000)
+#define SERVO_ADJUSTMENT_INTERVAL (100)
+
 //SMOKE START
+//SMOKE PINS
+#define SMOKE_STEERING_PIN (10)
+#define SMOKE_THROTTLE_PIN (9)
+#define SMOKE_CHANNEL3_PIN (8)
+#define SMOKE_STEERING_POT_PIN (0)
+#define SMOKE_THROTTLE_POT_PIN (1)
+#define SMOKE_CHANNEL3_POT_PIN (2)
+
 //SMOKE ESC VALUES
 #define SMOKE_ST_ESC_MIN (1000) //minimal valid value for ESC
 #define SMOKE_ST_ESC_MAX (2000) //maximal valid value for ESC
