@@ -17,9 +17,9 @@
 #define SMOKE_STEERING_PIN (10)
 #define SMOKE_THROTTLE_PIN (9)
 #define SMOKE_CHANNEL3_PIN (8)
-#define SMOKE_STEERING_POT_PIN (0)
-#define SMOKE_THROTTLE_POT_PIN (1)
-#define SMOKE_CHANNEL3_POT_PIN (2)
+#define SMOKE_STEERING_POT_PIN (A0)
+#define SMOKE_THROTTLE_POT_PIN (A1)
+#define SMOKE_CHANNEL3_POT_PIN (A2)
 
 //SMOKE ESC VALUES
 #define SMOKE_ST_ESC_MIN (1000) //minimal valid value for ESC
@@ -52,7 +52,7 @@
 #define HOPPER_ESC_PIN (5) 
 #define BELT_ESC_PIN (6)  
 
-#define PLAYER_BUSY_PIN (21) //notify when player is done playing and available, requires interrupt?? switch with on/off pin?
+#define PLAYER_BUSY_PIN (11) //(21) //notify when player is done playing and available, requires interrupt?? switch with on/off pin?
 #define PLAYER_RX_PIN (17) //connected to TX on player - Serial2 17-RX //v3.0 PIN 10
 #define PLAYER_TX_PIN (16) //connected to RX on player - Serial2 16-TX //v3.0 PIN 11
 
