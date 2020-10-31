@@ -1,7 +1,7 @@
 void AdjustServos() {
-//    SmokeSteering.speed(getPotValue(SMOKE_STEERING_POT_PIN));
-//    SmokeThrottle.speed(getPotValue(SMOKE_THROTTLE_POT_PIN));
-//    SmokeChannel3.speed(getPotValue(SMOKE_CHANNEL3_POT_PIN));
+    SmokeSteering.speed(getPotValue(SMOKE_STEERING_POT_PIN));
+    SmokeThrottle.speed(getPotValue(SMOKE_THROTTLE_POT_PIN));
+    SmokeChannel3.speed(getPotValue(SMOKE_CHANNEL3_POT_PIN));
 }
 
 int getPotValue(int pin) {
