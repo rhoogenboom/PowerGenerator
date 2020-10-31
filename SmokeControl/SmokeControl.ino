@@ -15,9 +15,9 @@ void setup() {
   Serial.println(F("Setting up"));
 
   //initialize pins
-  pinMode(SMOKE_STEERING_PIN, INPUT);
-  pinMode(SMOKE_THROTTLE_PIN, INPUT);
-  pinMode(SMOKE_CHANNEL3_PIN, INPUT);
+  pinMode(SMOKE_STEERING_POT_PIN, INPUT);
+  pinMode(SMOKE_THROTTLE_POT_PIN, INPUT);
+  pinMode(SMOKE_CHANNEL3_POT_PIN, INPUT);
 
   delay(2500);
   
