@@ -10,4 +10,11 @@ int getPotValue(int pin) {
   return val;
 }
 
+void SmokeOn() {
+  SmokeChannel3.speed(SMOKE_CH3_ESC_MAX);
+}
+
+void SmokeOff() {
+  SmokeChannel3.speed(SMOKE_CH3_ESC_ARM);
+}
 

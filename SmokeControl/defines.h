@@ -9,14 +9,14 @@
 #define MAX(x,y) ( x > y ? x : y )
 
 //DEBUG
-#define DEBUG_PRINT_INTERVAL (2000)
+#define DEBUG_PRINT_INTERVAL (3000)
 #define SERVO_ADJUSTMENT_INTERVAL (100)
 
 //SMOKE START
 //SMOKE PINS
-#define SMOKE_STEERING_PIN (10)
-#define SMOKE_THROTTLE_PIN (9)
-#define SMOKE_CHANNEL3_PIN (8)
+#define SMOKE_STEERING_PIN (4)
+#define SMOKE_THROTTLE_PIN (5)
+#define SMOKE_CHANNEL3_PIN (6)
 #define SMOKE_STEERING_POT_PIN (A0)
 #define SMOKE_THROTTLE_POT_PIN (A1)
 #define SMOKE_CHANNEL3_POT_PIN (A2)
@@ -52,14 +52,14 @@
 #define HOPPER_ESC_PIN (5) 
 #define BELT_ESC_PIN (6)  
 
-#define PLAYER_BUSY_PIN (11) //(21) //notify when player is done playing and available, requires interrupt?? switch with on/off pin?
-#define PLAYER_RX_PIN (17) //connected to TX on player - Serial2 17-RX //v3.0 PIN 10
-#define PLAYER_TX_PIN (16) //connected to RX on player - Serial2 16-TX //v3.0 PIN 11
+#define PLAYER_BUSY_PIN (2) //(21) //notify when player is done playing and available, requires interrupt?? switch with on/off pin?
+#define PLAYER_RX_PIN (0) //(17) //connected to TX on player - Serial2 17-RX //v3.0 PIN 10
+#define PLAYER_TX_PIN (1) //(16) //connected to RX on player - Serial2 16-TX //v3.0 PIN 11
 
 //BUTTON PINS
 #define VOLUME_UP_PIN (32)
 #define VOLUME_DOWN_PIN (33)
-#define POWER_ON_OFF_PIN (34)
+#define POWER_ON_OFF_PIN (A1) //(34)
 #define LIGHTS_ON_OFF_PIN (35)
 #define TRACK_LEFT_FORWARD_PIN (36)
 #define TRACK_LEFT_BACKWARD_PIN (37)

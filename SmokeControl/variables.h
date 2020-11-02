@@ -59,9 +59,9 @@ bool greenLEDState = LOW;
 bool redLEDState = LOW;
 
 //BUTTONS
+ToggleButton powerButton(POWER_ON_OFF_PIN, false, 25, true, true);
 Button volumeUpButton(VOLUME_UP_PIN, 25, false, false);
 Button volumeDownButton(VOLUME_DOWN_PIN, 25, false, false);
-Button powerButton(POWER_ON_OFF_PIN, 25, false, false);
 Button lightsButton(LIGHTS_ON_OFF_PIN, 25, false, false);
 Button trackLeftForwardButton(TRACK_LEFT_FORWARD_PIN, 25, false, false);
 Button trackLeftBackwardButton(TRACK_LEFT_BACKWARD_PIN, 25, false, false);
